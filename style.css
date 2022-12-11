@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/* Theme Name: Thème blog
+Description: Thème personnalisé pour le site du Blog
+Version: 0.1
+Author: jerome
+*/
+/*couleur primaire : Metallic seaweed*/
+/*couleur secondaire : Persian green*/
+/*couleur tertaire : Mountain Meadow*/
+/*couleur quataire : camel */
+/*Taille Font Big Titre de 74px*/
+/*Taille Font Titre de 40px*/
+/*Taille Font paragraphe de 24px*/
+body {
+  background-color: #AA8F66;
+}
+body header {
+  align-items: center;
+  width: 90%;
+  height: 20%;
+  margin: auto;
+}
+body header nav {
+  width: 90%;
+  margin: auto;
+  font-size: 40px;
+  color: #00A896;
+}
+@media screen and (max-width: 800px) {
+  body header nav {
+    font-size: 24px;
+  }
+}
+body header nav input[type=checkbox]:checked ul {
+  list-style-type: none;
+}
+body header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 800px) {
+  body header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    width: 60px;
+    flex-direction: column;
+  }
+}
+body header nav ul li {
+  width: 80%;
+  list-style-type: none;
+}
+@media screen and (max-width: 800px) {
+  body header nav ul li {
+    width: 20%;
+  }
+}
+body header nav ul li a {
+  display: block;
+  width: 258px;
+  line-height: 70px;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 1px 1px 2px #360 inset, 0px 0px 1px black, 0px -1px 1px #AA8F66;
+  background-color: #028090;
+  color: #AA8F66;
+}
+@media screen and (max-width: 800px) {
+  body header nav ul li a {
+    display: block;
+    width: 100px;
+  }
+}
+body header nav ul li ul li a {
+  text-decoration: none;
+}
+body #home .container {
+  width: 100%;
+  height: 80vh;
+  background-image: url(./assets/hero.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+body #home .container h2 {
+  width: 80%;
+  line-height: 60vh;
+  text-align: center;
+  color: #AA8F66;
+  font-size: 74px;
+  margin: auto;
+}
+@media screen and (max-width: 800px) {
+  body #home .container h2 {
+    font-size: 40px;
+    height: 40vh;
+  }
+}
+body #home .container2 p {
+  width: 80%;
+  margin: auto;
+  font-size: 24px;
+  color: white;
+}
+@media screen and (max-width: 800px) {
+  body #home .container2 p {
+    font-size: 18px;
+    text-align: left;
+    height: 50px;
+    vertical-align: middle;
+    line-height: 50px;
+  }
+}
+body #home .container2 ul {
+  width: 40%;
+  font-size: 24px;
+  margin: auto;
+}
+@media screen and (max-width: 800px) {
+  body #home .container2 ul {
+    font-size: 18px;
+  }
+}
+body #home .container2 ul li {
+  width: 80%;
+  margin: auto;
+}
+@media screen and (max-width: 800px) {
+  body #home .container2 ul li {
+    font-size: 18px;
+  }
+}
+body #about .container {
+  width: 100%;
+  height: 80vh;
+  background-image: url(./assets/hero.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+body #about .container h2 {
+  width: 80%;
+  line-height: 60vh;
+  text-align: center;
+  color: #AA8F66;
+  font-size: 74px;
+  margin: auto;
+}
+body #about .container2 {
+  width: 80%;
+  margin: auto;
+}
+body #about .container2 p {
+  width: 80%;
+  margin: auto;
+  font-size: 24px;
+  color: white;
+}
+body #about .container2 h3 {
+  width: 80%;
+  text-align: justify;
+  color: #AA8F66;
+  font-size: 24px;
+}
+body #blog .container {
+  width: 100%;
+  height: 80vh;
+  background-image: url(./assets/hero.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+body #blog .container h2 {
+  width: 80%;
+  line-height: 60vh;
+  text-align: center;
+  color: #AA8F66;
+  font-size: 74px;
+  margin: auto;
+}
+body #blog .container2 {
+  width: 80%;
+  margin: auto;
+}
+body #blog .container2 h3 {
+  width: 80%;
+  margin: auto;
+}
+body #blog .container2 h3 a {
+  color: black;
+  font-size: 24px;
+}
+body #blog .container2 p {
+  width: 60%;
+  margin: auto;
+  text-align: justify;
+  color: white;
+}
+body #canada .container {
+  width: 100%;
+  height: 80vh;
+  background-image: url(./assets/hero.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body #canada .container h2 {
+  width: 80%;
+  line-height: 60vh;
+  text-align: center;
+  color: #AA8F66;
+  font-size: 74px;
+  margin: auto;
+}
+@media screen and (max-width: 800px) {
+  body #canada .container h2 {
+    font-size: 24px;
+  }
+}
+body #canada .container p {
+  color: white;
+}
+body #contact .container {
+  width: 100%;
+  height: 80vh;
+  background-image: url(./assets/hero.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+body #contact .container h2 {
+  width: 80%;
+  text-align: center;
+  color: #AA8F66;
+  font-size: 74px;
+}/*# sourceMappingURL=style.css.map */
